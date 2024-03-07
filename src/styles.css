@@ -1,0 +1,163 @@
+html{
+    background-color: beige;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab';
+}
+
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(160, 182, 174);
+}
+
+#logo{
+    height: 25px;
+}
+
+h1{
+    text-align: center;
+    color:black;
+    font-size: 40px;
+}
+
+#banner{
+    width: 100%;
+    object-fit: cover;
+}
+
+#about{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#description{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+#team{
+    width: 50%;
+    padding: 10px;
+   
+}
+
+#team-image{
+    border-radius: 10px;
+    width: 100%
+}
+
+
+h2{
+    text-align: center;
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#jobs-table{
+   width: 100%;
+   margin-bottom: 40px;
+   border: 1px solid gray;
+   border-collapse: collapse;
+}
+
+.jobs-header-row th{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: rgb(138, 182, 167);
+}
+
+.jobs-data-row td{
+    border-right: 1px solid gray;
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(odd) {
+    background-color: rgb(212, 238, 229);
+}
+
+
+
+h4{
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.apply{
+    float: right;
+    margin-right: 15px;
+}
+
+#application {
+    padding: 0 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#application-form div {
+    margin: 9px;
+}
+
+#application-form label {
+    font-weight: 600;
+    font-family: roboto;
+}
+
+#application-form input, select, textarea {
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form-group textarea {
+    width: 75%;
+    font-family: Roboto Slab;
+}
+
+.form-group input[type="submit"] {
+    background-color: rgb(59, 144, 165);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+#footer {
+    background-color: rgb(168, 161, 161);
+    padding: 8px;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+#footer-links{
+    list-style: none; 
+      
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 40px;
+}
+
+.copyright {
+    color: rgb(53, 41, 41);
+}
